@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>McDonald's Fittizio</title>
+</head>
+<body>
+    <header>
+        <h1>Benvenuti al McDonald's Fittizio</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#stores">Negozi</a></li>
+            <li><a href="#contact">Contatti</a></li>
+        </ul>
+    </nav>
+
+    <section id="menu">
+        <h2>Il Nostro Menu</h2>
+        <p>Scopri il nostro delizioso menu, con opzioni per tutti i gusti!</p>
+        <!-- Immagine fittizia del menu -->
+        <img src="menu.jpg" alt="Menu McDonald's Fittizio">
+    </section>
+
+    <section id="stores">
+        <h2>Trova un Negozio</h2>
+        <p>Visita il tuo McDonald's fittizio più vicino!</p>
+        <!-- Mappa fittizia dei negozi -->
+        <img src="store-map.jpg" alt="Mappa dei Negozi McDonald's Fittizio">
+    </section>
+
+    <section id="contact">
+        <h2>Contattaci</h2>
+        <p>Hai domande o feedback? Scrivici!</p>
+        <!-- Link fittizio per contattare -->
+        <a href="mailto:info@mcdonaldsfittizio.com">info@mcdonaldsfittizio.com</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 McDonald's Fittizio. Tutti i diritti riservati.</p>
+    </footer>
+    <script type="text/javascript">
+        (function(d, t) {
+            var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+            v.onload = function() {
+              window.voiceflow.chat.load({
+                verify: { projectID: '6575edfe227e5e000821d4de' },
+                url: 'https://general-runtime.voiceflow.com',
+                versionID: 'production'
+              });
+            }
+            v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+        })(document, 'script');
+      </script>
+</body>
+</html>
